@@ -1,0 +1,29 @@
+CREATE TABLE Book ( 
+  
+    book_ID int NOT NULL,  
+    title varchar(255) NOT NULL,  
+    author varchar(255),
+    page_number int NOT NULL,
+    publication_year int NOT NULL  
+     
+  
+);
+
+
+CREATE TABLE Reader ( 
+  
+    name varchar(255) NOT NULL,  
+    reader_id int NOT NULL,  
+    address varchar(255) NOT NULL,  
+    phone number varchar(15)   
+    
+);
+
+
+CREATE TABLE Borrow Records (  
+    book_id int NOT NULL,
+    reader_id int NOT NULL,
+    start_date int NOT NULL,  
+    due_date int NOT NULL 
+  
+);
